@@ -133,6 +133,7 @@ enterButton.addEventListener("click", checkGuess);
 enterButton.textContent = "ENTER";
 backspaceAndEnterRow.append(enterButton);
 
+/*
 document.onkeydown = function (evt) {
   evt = evt || window.evt
   if(evt.key === "Enter") {
@@ -143,3 +144,4 @@ document.onkeydown = function (evt) {
     handleKeyboardOnClick(evt.key.toUpperCase())
   }
 }
+  */
